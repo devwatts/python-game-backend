@@ -3,6 +3,7 @@ from flask_cors import CORS
 import random
 
 app= Flask(__name__)
+CORS(app)
 
 @app.route('/')
 def index():
